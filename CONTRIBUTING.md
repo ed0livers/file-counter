@@ -23,6 +23,18 @@ Clone your fork, then install the dev dependencies:
 ```bash
 composer install
 ```
+
+## Setup using Docker
+
+Clone your fork, then run:
+```bash
+docker compose up -d 
+```
+Finally, access the created container with:
+```bash
+docker exec -it php bash
+```
+
 ## Lint
 
 Lint your code:
